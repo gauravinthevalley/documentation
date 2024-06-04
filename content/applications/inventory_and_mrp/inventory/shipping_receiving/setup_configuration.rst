@@ -12,5 +12,10 @@ Setup and configuration
    setup_configuration/labels
    setup_configuration/sendcloud_shipping
    setup_configuration/ups_credentials
+<<<<<<< HEAD
    setup_configuration/dhl_credentials
    setup_configuration/starshipit_shipping
+||||||| parent of 15315afe2 (temp)
+=======
+   setup_configuration/zebra
+>>>>>>> 15315afe2 (temp)
