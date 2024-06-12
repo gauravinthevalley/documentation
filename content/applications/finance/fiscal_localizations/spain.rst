@@ -48,6 +48,7 @@ Here is the list of Spanish-specific statement reports available:
 - EC Sales List;
 - Tax Report (Modelo 111);
 - Tax Report (Modelo 115);
+- Tax Report (Modelo 130);
 - Tax Report (Modelo 303);
 - Tax Report (Modelo 347);
 - Tax Report (Modelo 349);
@@ -58,6 +59,38 @@ selecting its Spain-specific version: :guilabel:`(ES)`.
 
 .. image:: spain/modelo-reports.png
    :alt: Spain-specific tax reports.
+
+Modelo 130
+----------
+
+Change percentage
+~~~~~~~~~~~~~~~~~
+
+If you wish to change the percentage computation of the box :guilabel:`[04]` under the **I** section
+and/or of the box :guilabel:`[09]` under the **II** section:
+
+- Activate the :ref:`developer mode <developer-mode>`, go to :menuselection:`Accouting --> Reporting
+  --> Tax Report`, and select the report :guilabel:`Modelo 130`. Then, click the (⚙) gear icon to
+  the right of :guilabel:`Report: Tax Report (Mod 130) (ES)`;
+- Click the box you wish to change, and in the pop-up window, click on the :guilabel:`percentage`
+  line. In the new pop-up window, change the value in the :guilabel:`Formula` field to the
+  percentage you wish to apply.
+
+Repeat this action if you wish to modify both boxes.
+
+Report agriculture activity
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you wish to have any amount input in the **II** section (from boxes :guilabel:`[08]` to
+:guilabel:`[11]`), you must change the **industry** of the corresponding contact to **agriculture**:
+
+- Go to the **contacts** page (:menuselection:`Accounting --> Customers --> Customers`
+  or :menuselection:`Vendors --> Vendors`), and select a contact;
+- In the :guilabel:`Sales & Purchase` tab, set the :guilabel:`Industry` field to
+  :guilabel:`Agriculture`.
+
+Repeat for all contacts related to the **agriculture** industry.
+
 
 TicketBAI
 =========
