@@ -48,10 +48,10 @@ name`. Click :guilabel:`Save` if necessary.
 When the :guilabel:`Use Stock Quantity` field is checked, the quantity set on eBay will be the Odoo
 *Forecast Quantity* (Odoo *Inventory* app).
 
-The policies need to be set in order to be able to list in ebay. We need to select a value for the 
+The policies need to be set in order to be able to list in ebay. We need to select a value for the
 fields :guilabel:`Payment Policy`, :guilabel:`Return Policy` and :guilabel:`Shipping Policy`. The options
 that we'll be able to select are imported from the ebay database. If no option appears we can import them
-by navigating to :menuselection:`Sales app ‣ Configuration ‣ Settings ‣ eBay` and click on the 
+by navigating to :menuselection:`Sales app ‣ Configuration ‣ Settings ‣ eBay` and click on the
 :guilabel:`Policies` button in in the :guilabel:`Synchronization` section. This button will appear
 once the production and sandbox credentials have been set.
 
