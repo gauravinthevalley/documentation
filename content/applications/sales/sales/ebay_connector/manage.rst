@@ -48,21 +48,21 @@ name`. Click :guilabel:`Save` if necessary.
 When the :guilabel:`Use Stock Quantity` field is checked, the quantity set on eBay will be the Odoo
 *Forecast Quantity* (Odoo *Inventory* app).
 
-The policies need to be set in order to be able to list in ebay. We need to select a value for the
-fields :guilabel:`Payment Policy`, :guilabel:`Return Policy` and :guilabel:`Shipping Policy`. The options
-that we'll be able to select are imported from the ebay database. If no option appears we can import them
-by navigating to :menuselection:`Sales app ‣ Configuration ‣ Settings ‣ eBay` and click on the
-:guilabel:`Policies` button in in the :guilabel:`Synchronization` section. This button will appear
-once the production and sandbox credentials have been set.
+The policies need to be set in order to be able to list on ebay. A value must be select a value for the
+fields :guilabel:`Payment Policy`, :guilabel:`Return Policy`, and :guilabel:`Shipping Policy`. The options
+are imported from the eBay database. If no option appears, they can be imported by navigating to
+:menuselection:`Sales app --> Configuration --> Settings --> eBay` and click on the :guilabel:`Policies`
+button in in the :guilabel:`Synchronization` field. This button **only** appears once the production
+and sandbox credentials have been set.
 
 The :guilabel:`Description Template` allows the administrator to use templates in listings. The
-default template only use the :guilabel:`eBay Description` field of the product. HTML can be used
-inside the :guilabel:`Description Template` and in the :guilabel:`eBay Description` in Odoo 14.
+default template only uses the :guilabel:`eBay Description` field of the product. HTML can be used
+inside the :guilabel:`Description Template`, and in the :guilabel:`eBay Description` in Odoo 14.
 Starting in Odoo 15, the powerbox feature is available to use in the template and description.
 Simply type a forward slash `/` to reveal a menu with formatting, layout, and text options. To add
 an image, type `/image`.
 
-To use images in the listing, an image needs to be added as *Attachments* on the product
+To use images in the listing, an image needs to be added as one of the *Attachments* on the product
 template.
 
 .. seealso::
