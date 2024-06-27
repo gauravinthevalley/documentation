@@ -45,14 +45,14 @@ name`. Click :guilabel:`Save` if necessary.
   :align: center
   :alt: The eBay template form listed in the product template in Odoo.
 
-When the :guilabel:`Use Stock Quantity` field is checked, the quantity set on eBay will be the Odoo
+When the :guilabel:`Use Stock Quantity` field is checked, the quantity set on eBay is the Odoo
 *Forecast Quantity* (Odoo *Inventory* app).
 
-The policies need to be set in order to be able to list on ebay. A value must be select a value for the
-fields :guilabel:`Payment Policy`, :guilabel:`Return Policy`, and :guilabel:`Shipping Policy`. The options
+The policies need to be set in order to be able to list on eBay. A value must be selected for the
+following fields :guilabel:`Payment Policy`, :guilabel:`Return Policy`, and :guilabel:`Shipping Policy`. The options
 are imported from the eBay database. If no option appears, they can be imported by navigating to
-:menuselection:`Sales app --> Configuration --> Settings --> eBay` and click on the :guilabel:`Policies`
-button in in the :guilabel:`Synchronization` field. This button **only** appears once the production
+:menuselection:`Sales app --> Configuration --> Settings --> eBay`, and clicking on the :guilabel:`Policies`
+button in the :guilabel:`Synchronization` field. This button **only** appears once the production
 and sandbox credentials have been set.
 
 The :guilabel:`Description Template` allows the administrator to use templates in listings. The
