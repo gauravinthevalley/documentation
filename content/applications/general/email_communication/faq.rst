@@ -210,7 +210,8 @@ If this is a recurring problem with the same client, or the same domain, do not 
    One of the most common reasons for an email failing to send with no error message is related to
    :ref:`SPF <email_domain/spf_compliant>` and/or :ref:`DKIM
    <email_domain/DKIM_compliant>` configuration. Also verify that that the implemented email
-   notification setup is adapted to the business needs. See also our :ref:`introduction <emails_servers>`.
+   notification setup is adapted to the business needs. See also the :doc:`Communication in Odoo by
+   email documentation <emails_servers>` for more information.
 
 .. _email_issues/execution_time_email:
 
